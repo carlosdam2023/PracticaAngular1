@@ -1,0 +1,17 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 tarjetas por fila */
+    gap: 20px; /* Espacio entre tarjetas */
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0 auto; /* Asegura el centrado horizontal */
+    justify-content: center; /* Centra las tarjetas horizontalmente si sobra espacio */
+    max-width: 1200px; /* Opcional, define un ancho máximo */
+  }
+  
+  .app-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

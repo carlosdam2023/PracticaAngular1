@@ -1,0 +1,13 @@
+<ul>
+  <li 
+  *ngFor="let card of cards; let i = index"
+  [ngClass]="['animate__animated', 'animate__fadeIn']">
+    <app-card 
+      [image]="card.image" 
+      [title]="card.title" 
+      [text]="card.text" 
+      [buttonText]="card.buttonText" 
+      [link]="card.link"
+    ></app-card>
+  </li>
+</ul>
